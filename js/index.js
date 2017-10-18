@@ -19,14 +19,14 @@ jQuery(function ($) {
             mediaPath = 'https://github.com/aspyct/music/blob/master/media/',
             tracks = [
                 {
+                    "name": "Binary Sunset - Piano Cover",
+                    "length": "1:24",
+                    "file": "Binary%20Sunset%2018%20Oct%202017.m4a"
+                },
+                {
                     "name": "Into the Cave",
                     "length": "1:52",
                     "file": "Into%20the%20Cave.m4a"
-                },
-                {
-                "name": "Binary Sunset - Piano Cover",
-                "length": "1:24",
-                "file": "Binary%20Sunset%2018%20Oct%202017.m4a"
                 }
             ],
             buildPlaylist = $.each(tracks, function(key, value) {
