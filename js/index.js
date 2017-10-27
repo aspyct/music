@@ -17,11 +17,15 @@ jQuery(function ($) {
         var index = 0,
             playing = false,
             mediaPath = 'https://github.com/aspyct/music/blob/master/media/',
-            tracks = [
+            tracks = [{
+                    "name": "A Fresh Start",
+                    "length": "2:03",
+                    "file": "A_Fresh_Start.mp3"
+                },
                 {
                     "name": "Into the Cave",
                     "length": "1:52",
-                    "file": "Into%20the%20Cave.m4a"
+                    "file": "Into_the_Cave.mp3"
                 }
             ],
             buildPlaylist = $.each(tracks, function(key, value) {
