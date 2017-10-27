@@ -17,7 +17,8 @@ jQuery(function ($) {
         var index = 0,
             playing = false,
             mediaPath = 'https://github.com/aspyct/music/blob/master/media/',
-            tracks = [{
+            tracks = [
+                {
                     "name": "A Fresh Start",
                     "length": "2:03",
                     "file": "A_Fresh_Start.mp3"
